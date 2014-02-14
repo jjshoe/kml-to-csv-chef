@@ -1,1 +1,8 @@
-package "libxml-xpath-perl"package "gdal-bin"git "/root/xml-to-csv" do  repository "https://github.comjjshoe/xml-to-csv"  reference "master"  action :syncend
+package "git"
+package "libxml-xpath-perl"   
+
+git "/root/xml-to-csv" do
+  repository "https://github.com/jjshoe/kml-to-csv.git"
+  reference "master"
+  action :sync
+end
